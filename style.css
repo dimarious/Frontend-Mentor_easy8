@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/*Weights: 200, 400, 600*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bleed: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  padding: 90px 165px 80px;
+}
+
+main {
+  text-align: center;
+}
+
+.head {
+  font-size: 38px;
+  font-weight: 200;
+  color: var(--Very-Dark-Blue);
+  margin-bottom: 20px;
+}
+
+.header-body {
+
+  color: var(--Grayish-Blue);
+  line-height: 27px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  padding: 30px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.card-body {
+  padding-top: 20px;
+  color: var(--Grayish-Blue);
+}
+
+.card-img {
+  float: right;
+  margin-top: 20px;
+}
+
+.card1 {
+  max-width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 8px 19px -2px rgba(132, 128, 129, 0.62);
+  border-top: 5px solid var(--Cyan);
+}
+
+.card2 {
+  max-width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 8px 19px -2px rgba(132, 128, 129, 0.62);
+  border-top: 5px solid var(--bleed);
+  margin: 65px 30px 30px 30px;
+}
+
+.card3 {
+  margin: 0 30px 30px 30px;
+  max-width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 8px 19px -2px rgba(132, 128, 129, 0.62);
+  border-top: 5px solid var(--Orange);
+}
+
+.card4 {
+  max-width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 8px 19px -2px rgba(132, 128, 129, 0.62);
+  border-top: 5px solid var(--Blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 975px) {
+  body {
+    font-size: 15px;
+    padding: 90px 30px;
+  }
+
+  .head {
+    font-size: 25px;
+  }
+
+  .header-body {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .container {
+    display: block;
+    
+  }
+
+  .card2,
+  .card3 {
+    margin: 0;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin-bottom: 25px;
+
+  }
